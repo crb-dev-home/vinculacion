@@ -1,0 +1,75 @@
+* { margin: 0px;
+padding: 0px; outline: 0;
+}
+
+#menu {
+	text-align: center;
+	font-size: 14px;
+	width: 990px;
+	margin: 0px auto;
+	font-family: 'Marcellus', serif;
+	text-transform: uppercase;
+}
+#menu ul { list-style-type: none;}
+#menu ul li.nivel1 { float: left;
+}
+.nivel2 
+{ 
+	background-color: #e0e0df;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	position: relative;
+	padding-top: 11px;
+	padding-right: 63px;
+	padding-bottom: 11px;
+	padding-left: 63px;
+	/*color: #666;*/
+	
+	
+   /* padding: 0 14px 0 22px !important;*/
+}
+#menu ul li:hover {position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 
+{
+	position: relative;
+	color: #F3F3F3;
+}
+#menu ul > li + li a.nivel1 {display: block!important;display: none;
+position: relative;
+background: rgba(0, 0, 0, 0) url("../images/navbar-punto-gris.png") no-repeat scroll left center !important;
+}
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#menu ul li ul li a 
+{width: 130px;
+padding: 6px 0px 8px 53px;
+border-top-color: #000;
+text-align:left;
+position: relative;
+float:none;
+}
+#menu ul li ul li a:hover {border-top-color: #000;
+position: relative;
+}
+table.falsa {border-collapse:collapse;
+border:0px;
+float: left;
+position: relative;
+}
+
+#usuario
+{
+	text-align: right;
+	font-size: 14px;
+	width: 990px;
+	margin-right:10px;
+	font-family: 'Marcellus', serif;
+	text-transform: uppercase;
+	
+}
